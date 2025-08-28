@@ -1,17 +1,5 @@
 # Week 3 workshop
 
-## 📁 Project Structure
-
-```
-/
-|--week1
-│   ├── index.html
-|--week2
-│   ├── index.js
-|--week{ตัวเลข week ที่ทำ workshop หรือคาบเรียน}
-```
-
-
 ## 3.1 การตัดคะแนนของนักศึกษา
 สร้าง function gradeCalculator สำหรับ encalsulate logic สำหรับ คำนวณ grade จากคะแนนที่ได้รับจาก parameter
 
