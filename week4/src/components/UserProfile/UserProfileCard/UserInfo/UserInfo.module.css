@@ -1,0 +1,78 @@
+.user-info {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+.user-profile-img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.user-info > div {
+  margin-left: 16px;
+}
+
+.user-information {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.user-email {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #555;
+}
+
+.user-info-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-right: 8px;
+  font-size: 20px;
+  line-height: 0;
+}
+
+.user-online-status {
+  font-size: 14px;
+}
+
+.user-online-status-indicator, .user-offline-status-indicator {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+.user-online-status-indicator::before {
+  content: "•";
+  color: green;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.user-offline-status-indicator::before {
+  content: "•";
+  color: gray;
+  font-weight: bold;
+  font-size: 32px;
+}

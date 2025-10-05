@@ -1,0 +1,23 @@
+.advanced-level-skill {
+  background-color: #f8d7da;
+}
+
+.intermediate-level-skill {
+  background-color: #f0e246;
+}
+
+.beginner-level-skill {
+  background-color: #d4edda;
+}
+
+.no-level-skill {
+  background-color: #e2e3e5;
+}
+
+.skill-tag {
+  width: fit-content;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 14px;
+}
